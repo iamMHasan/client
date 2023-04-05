@@ -1,0 +1,170 @@
+body {
+    background: linear-gradient(to right, #04080f, #041c27);
+    height: 100hv;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    font-size: 1.5rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+li {
+    padding: 0 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    border-spacing: 0 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+td {
+    padding: .5rem;
+  }
+#ticker-table tr {
+    margin-bottom: 20px;
+    background-color: #333;
+    border-radius: 15px;
+}
+.telegram-button{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    background-color: #0088cc;
+    border-radius: 3px;
+    padding: 3px 6px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.telegram-button:hover{
+    background-color: #007dbb;
+}
+
+.telegram-button:active{
+    background-color: #026698;
+}
+
+.telegram-button i{
+    display: inline-block;
+    height: 30px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 2px;
+    
+    background: url('https://telegram.org/img/oauth/tg_button_small.png') no-repeat;
+    background-size: contain;
+}
+
+.telegram-button span{
+    display: inline-block;
+    vertical-align: top;
+}
+.event-type-select {
+    border: none;
+    padding:12px;
+    height:45px;
+    width:auto;
+    min-width:12opx;
+    overflow: hidden;
+    margin-left:3px;
+    background: linear-gradient(to right, #04080f, #041c27);
+    color: white;
+    transition: 0.2s all;
+}
+
+select.event-type-select {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+select.event-type-select:hover {
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.3);
+}
+
+.event-type-select select {
+    padding: 50px 38px;
+    /*width: 130%;*/
+    border: none;
+    /*box-shadow: none;*/
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.contact-parent {
+	padding:0 !important;
+}
+
+.contact-parent div {
+	 margin: 10px 3px !important;
+}
+
+
+
+.left_div{
+		width: 30%;
+		/*border: 1px solid green;*/
+		float: left;
+		display: inline-block;
+
+	}
+.contact-list {
+    margin: 0 !important;
+    padding-top: 15px;
+    padding-bottom: 15px !important;
+    padding-left: 15px !important;
+    float: left;
+    height: 180px;
+    width: 320px;
+}
+.contact-parent div:hover {
+    background: linear-gradient(to right, #04080f, #041c27);
+}
+.contact-list p {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    line-height: 20px !important;
+    font-size: 12px !important;
+}

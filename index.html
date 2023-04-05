@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">HOLDINFO</a></li>
+            <form style="float:left; padding-right:25px; margin:20px auto">
+                <select id="parent_selector" class="event-type-select">
+                    <option value="">INR</option>
+                    <option value="cat-1">INR</option>
+                </select>
+            </form>
+            <a class="telegram-button">
+                <i></i>
+                <span>Connect Telegram</span>
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <table id="ticker-table">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Last</th>
+                <th>Buy</th>
+                <th>Sell</th>
+                <th>Volume</th>
+                <th>Base Unit</th>
+            </tr>
+        </table>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
